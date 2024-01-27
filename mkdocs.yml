@@ -24,7 +24,7 @@ theme:
 nav:
   - index.md
   - Privacy Policy: privacy.md
-#  - Terms & Conditions: terms.md
+#  - Terms of Service: terms.md
 #  - FAQ: faq.md
 markdown_extensions:
   - admonition
