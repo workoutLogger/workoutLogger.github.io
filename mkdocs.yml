@@ -1,0 +1,33 @@
+site_name: WorkoutLogger
+site_url: https://workoutlogger.github.io/
+theme:
+  name: material
+  logo: assets/workoutlogger.png
+  favicon: assets/workoutlogger.png
+  features:
+    - header.autohide
+    - toc.integrate
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+nav:
+  - index.md
+  - Privacy Policy: privacy.md
+#  - Terms & Conditions: terms.md
+#  - FAQ: faq.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+plugins: []
